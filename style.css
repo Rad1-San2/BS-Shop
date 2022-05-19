@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+i{
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+/* nav part start */
+nav{
+    padding: 30px 0;
+}
+.container{
+   padding: 0 20px;
+}
+.nav_first{
+    width: 25%;
+    float: left;
+}
+.nav_second{
+    width: 50%;
+    float: left;
+}
+.nav_second ul li{
+    display: inline-block;
+    padding: 0 20px;
+    color: black;
+}
+.nav_second ul li a{
+    color: black;
+}
+.nav_thrid{
+    width: 25%;
+    float: left;
+    
+}
+.nav_third_inner{
+    text-align: end; 
+}
+.nav_third ul li{
+    display: inline-block;
+    padding: 0 25px;
+    color: black;
+}
+.nav_third ul li a{
+    color: black;
+}
+
+/* nav part end */
+
+/* body start */
+#body{
+    margin-top: 100px;
+}
+.body_text{
+    width: 50%;
+    float: left;
+}
+.body_text h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+.body_text h1{
+    font-size: 90px;
+    position: relative;
+    padding-bottom: 40px;
+}
+.body_text h1::after{
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 140px;
+    bottom: 0;
+    left: 0;
+    background-color: #c43b68;
+    
+}
+.body_img{
+    width: 50%;
+    float: left;
+}
+.body_img img{
+    width: 100%;
+}
+
+/* body end */
+
+/* product start */
+#product{
+    padding: 100px 0;
+}
+.product_text{
+    text-align: center;
+    line-height: 50px;
+    padding-bottom: 50px;
+}
+.product_text h1{
+    font-size: 50px;
+}
+.item{
+    width: 50%;
+    align-items: baseline;
+}
+.item_one{
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    text-align: center;
+}
+.item_one img{
+    width: 100%;
+}
+.item_two{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    text-align: center;
+}
+.item_two img{
+    width: 100%;
+}
+.item_two h3, p{
+    margin: 10px;
+}
+/* product end */
+
+/* footer start */
+
+footer{
+    padding: 30px 0;
+    background-color: black;
+}
+.footer_inner{
+    width: 25%;
+}
+.footer_text{
+    color: white;
+}
+.footer_text h2,p{
+    padding-bottom: 20px;
+}
+.footer_icon a i{
+    padding-right: 10px;
+}
+/* footer end */
